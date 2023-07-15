@@ -47,8 +47,7 @@ button {
 .top .main {
   margin: 5rem 0;
   display: flex;
-  .left,
-  .right {
+  .left {
     flex: 0 0 50%;
     width: 90%;
   }
@@ -56,6 +55,10 @@ button {
 
 .left {
   padding-right: 0.5rem;
+}
+.header-image-container {
+  display: flex;
+  flex-grow: 1;
 }
 
 .right {
@@ -104,22 +107,23 @@ header ul li a {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 125px;
+  width: 175px;
 }
 
 .image-container p {
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
   color: grey;
 }
 
 h2 {
   text-align: center;
+  font-size: 36px;
 }
 
 .rounded {
   border-radius: 10px;
-  height: 125px;
+  /* height: 125px; */
   width: auto;
 }
 
@@ -141,6 +145,7 @@ h2 {
 
 .text-container .quotation {
 font-size: 18px;
+font-weight: 800;
 }
 
 .text-container p {
@@ -149,4 +154,60 @@ font-size: 18px;
   color: #1f2937;
   align-self: end;
   font-weight: 300;
+}
+
+
+.cta-container {
+  background-color: white;
+}
+
+.cta-container .cta-wrapper {
+  background-color: #3882f6;
+  margin: 5rem 12rem;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-container .cta-wrapper {
+  padding: 2rem 4rem;
+  display: flex;
+}
+
+.cta-container .cta-wrapper .text-wrapper {
+  display: flex;
+  flex-direction: column;
+  ;
+}
+.cta-container .cta-wrapper .text-wrapper h3 {
+  margin: 0;
+  margin-top: 0.3rem;
+}
+
+.cta-container .cta-wrapper .text-wrapper p{
+font-size: 12px;
+margin-top: 0.3rem;
+}
+
+.cta-container .cta-wrapper .button-container {
+  display: flex;
+}
+
+.cta-container .cta-wrapper .button-container button {
+  border: 1px solid white;
+  align-self: center;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+
 }
